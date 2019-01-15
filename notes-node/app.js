@@ -4,7 +4,6 @@ const yargs = require( 'yargs' );
 
 const notes = require( './notes.js' );
 
-// const argv = yargs.argv;
 const titleOptions = {
 	describe: 'Title of note',
 	demand: true,
